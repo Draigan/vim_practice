@@ -1,2 +1,19 @@
-wW bB e ge {} ctrl d ctrl u / ? 
+wdW bB e ge {} ctrl d ctrl u / ? 
 ci( == change in bracket
+0 moves to the first character of a line
+^ moves to the first non black character
+$ Moves to the of a line
+g_ moves to the non blank at end of line
+- moves up one line
+ctrl-D down half a page
+ctrl-U up half a page
+f{character} find next occurence of character
+F{character}
+; go to next occurence of character
+, go to prev of char
+cc change line
+dd delete a line
+>> shift line right
+<< shift line left
+A instert mode at the end of the line
+i instert mode before the cursor
