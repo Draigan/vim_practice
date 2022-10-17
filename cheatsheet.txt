@@ -17,3 +17,6 @@ dd delete a line
 << shift line left
 A instert mode at the end of the line
 i instert mode before the cursor
+y cuts selection
+yy cuts the line
+p paste
