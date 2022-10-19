@@ -20,3 +20,4 @@ i instert mode before the cursor
 y cuts selection
 yy cuts the line
 p paste
+v enters selection mode
