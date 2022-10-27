@@ -21,3 +21,10 @@ y cuts selection
 yy cuts the line
 p paste
 v enters selection mode
+o creates a new line after 
+O creates a new line before
+:mks ~/filedir makes a session (saves tabs and stuff)
+:source <vimsession> loads the session
+:vim -S <vimsession> starts the session with vim
+n skips forward in a search
+N skips backward in a search
