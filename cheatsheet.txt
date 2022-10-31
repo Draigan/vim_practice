@@ -28,3 +28,6 @@ O creates a new line before
 :vim -S <vimsession> starts the session with vim
 n skips forward in a search
 N skips backward in a search
+cgn deletes search and puts us into insert move.
+/search enter cgn <write text> n .dot to replace it with last thing
+2dd deletes 2 lines downwards
