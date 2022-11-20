@@ -31,3 +31,4 @@ N skips backward in a search
 cgn deletes search and puts us into insert move.
 /search enter cgn <write text> n .dot to replace it with last thing
 2dd deletes 2 lines downwards
+C to cut from cursor to end of line and go into insert mode
