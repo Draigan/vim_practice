@@ -4,7 +4,6 @@ ci( == change in bracket
 ^ moves to the first non black character
 $ Moves to the of a line
 g_ moves to the non blank at end of line
-- moves up one line
 ctrl-D down half a page
 ctrl-U up half a page
 f{character} find next occurence of character
@@ -32,3 +31,10 @@ cgn deletes search and puts us into insert move.
 /search enter cgn <write text> n .dot to replace it with last thing
 2dd deletes 2 lines downwards
 C to cut from cursor to end of line and go into insert mode
+ ctrl a incrments a number 
+ ctrl x decrements a number 90
+ 5 followed by ctrl a or x will 5 add or decrement 5
+vi { selects everything inside of curly bracket
+va { selects curly brackets and everything inside of it 
+
+ var = { bunch of stuff}
