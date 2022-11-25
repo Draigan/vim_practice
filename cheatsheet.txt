@@ -36,5 +36,9 @@ C to cut from cursor to end of line and go into insert mode
  5 followed by ctrl a or x will 5 add or decrement 5
 vi { selects everything inside of curly bracket
 va { selects curly brackets and everything inside of it 
+ce changes to the end of a word
+de changes to the start of the next word 
+ctrl G shows line status and file status in bottom left
+gg to move to top of file
+G to move to bottom of file 
 
- var = { bunch of stuff}
